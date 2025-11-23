@@ -1,0 +1,9 @@
+﻿<!-- FancyLabel.xaml -->
+<UserControl x:Class="WpfComponentsLibrary.FancyLabel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <TextBlock Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}"
+               FontSize="18"
+               FontWeight="Bold"
+               Foreground="#FF0078D4"/>
+</UserControl>    

@@ -1,0 +1,18 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfComponentLibrary">
+
+    <!-- Default styles for your true Custom Controls go here -->
+    <!-- Example:
+    <Style TargetType="{x:Type local:MyFancyControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:MyFancyControl}">
+                    ...
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    -->
+
+</ResourceDictionary>
