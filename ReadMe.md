@@ -3,7 +3,9 @@
 2.1 Edited .csproj to include:
 
     ```<UseWPF>true</UseWPF>```
-1. alpha
+1. App look like this with Fancy Label user control
+
+![App with User Control Fancy Label](AppWithFancyLabelUserControl.JPG)
 1. beta
 1. gamma
 1. delta

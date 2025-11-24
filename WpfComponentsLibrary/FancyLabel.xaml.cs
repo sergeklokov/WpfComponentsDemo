@@ -24,5 +24,14 @@ namespace WpfComponentsLibrary
         {
             InitializeComponent();
         }
+
+        public static readonly DependencyProperty TextProperty =
+            DependencyProperty.Register("Text", typeof(string), typeof(FancyLabel), new PropertyMetadata("Default Text"));
+
+        public string Text
+        {
+            get => (string)GetValue(TextProperty);
+            set => SetValue(TextProperty, value);
+        }
     }
 }
