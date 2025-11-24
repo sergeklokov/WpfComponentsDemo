@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:WpfComponentsDemo"
         mc:Ignorable="d"
         Title="WPF Components Demo" Height="450" Width="800">
-    <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="15">
+    <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center" >
 
         <!-- FancyLabel Usage -->
         <lib:FancyLabel Text="This is a Fancy Label!" 
