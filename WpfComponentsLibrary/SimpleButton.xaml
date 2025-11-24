@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WpfComponentsDemo.SimpleButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="root">
+    <Button Padding="12,8" Background="#FF0078D4" Foreground="White" BorderThickness="0"
+            Command="{Binding ElementName=root, Path=Command}"
+            CommandParameter="{Binding ElementName=root, Path=CommandParameter}"
+            Cursor="Hand">
+        <Button.Content>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <!-- Optional Icon -->
+                <ContentPresenter Content="{Binding ElementName=root, Path=Icon}"
+                                  Margin="0,0,8,0"
+                                  VerticalAlignment="Center"/>
+                <TextBlock Text="{Binding ElementName=root, Path=ButtonText}"
+                           FontSize="14"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+        </Button.Content>
+    </Button>
+</UserControl>
